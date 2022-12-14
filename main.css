@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    width: 900px;
+    height: 900px;
+    border: 1px solid red;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+}
+
+
+
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#form input {
+    margin-top: 10px;
+    
+}
+
+#form button {
+    margin: 20px;
+    width: 130px;
+}
+
+#products-list {
+    list-style: none;
+}
