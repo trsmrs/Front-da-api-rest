@@ -14,10 +14,6 @@ html {
     top: 5%;
 }
 
-
-
-
-
 #form {
     display: flex;
     flex-direction: column;
@@ -34,6 +30,27 @@ html {
     width: 130px;
 }
 
+#formEdit {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#formEdit input {
+    margin-top: 10px;
+    
+}
+
+#formEdit button {
+    margin: 20px;
+    width: 130px;
+}
+
 #products-list {
     list-style: none;
+}
+
+
+.hidden {
+    display: none;
 }
